@@ -5,6 +5,7 @@ import './App.css';
 import Form from './components/Form'
 import TodoList from './components/TodoList';
 import Title from './components/Title';
+import Footer from './components/Footer';
 
 function App() {
   // Etats
@@ -68,6 +69,7 @@ function App() {
       todos={todos}
       filteredTodos={filteredTodos}
       />
+      <Footer />
     </div>
   );
 };
