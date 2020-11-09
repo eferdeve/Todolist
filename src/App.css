@@ -139,6 +139,11 @@ select {
   transform: scale(1.5);
 }
 
+@media only screen and (max-width: 680px) {
+  form {
+    flex-direction: column;
+  }
+}
 
 
 
